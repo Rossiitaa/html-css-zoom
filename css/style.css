@@ -12,6 +12,9 @@ body {
     display: flex;
 }
 
+button {
+    cursor: pointer;
+}
 
 
 /* header */
@@ -38,21 +41,24 @@ header {
     border-radius: 5px;
 }
 
+main {
+    margin-bottom: 5vw;
+}
+
 /* main */
 .flexwrap {
     flex-wrap: wrap;
 }
 
 .section {
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    overflow: auto;
-    width: 90vw;
+    margin-left: 5vw;
 }
 
 .cam {
     position: relative;
+    margin-left: 1vh;
 }
 
 .user {
@@ -61,5 +67,39 @@ header {
     bottom: 5px;
     color: white;
     background-color: #66737f;
+}
 
+/* footer */
+
+.commands {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background-color: #4a4a4a;
+    width: 100%;
+    color: white;
+}
+
+.arrowup {
+    margin: 20px 10px;
+}
+
+.button {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.green {
+    color: #4bc800;
+}
+
+.endmeet {
+    background-color: #4a4a4a;
+    color: #f00326;
+    border: none;
 }
