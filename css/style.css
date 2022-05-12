@@ -12,6 +12,16 @@ body {
     display: flex;
 }
 
+
+
+/* header */
+
+header {
+    height: 20%;
+    margin-bottom: 5vw;
+
+}
+
 .container {
     width: 100%;
     justify-content: flex-end;
@@ -20,18 +30,36 @@ body {
     z-index: 1;
 }
 
-/* header */
-
-header {
-    height: 20%;
-    margin-bottom: 15px;
-
-}
-
 .container button {
     padding: 5px;
     background-color: #4a4a4a;
     color: #ffffff;
     margin: 2px;
     border-radius: 5px;
+}
+
+/* main */
+.flexwrap {
+    flex-wrap: wrap;
+}
+
+.section {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 90vw;
+}
+
+.cam {
+    position: relative;
+}
+
+.user {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: white;
+    background-color: #66737f;
+
 }
