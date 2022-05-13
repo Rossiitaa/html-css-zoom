@@ -19,18 +19,8 @@ button {
 
 /* header */
 
-header {
-    height: 20%;
-    margin-bottom: 5vw;
-
-}
-
 .container {
-    width: 100%;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+    justify-content: flex-end;    
 }
 
 .container button {
@@ -42,7 +32,8 @@ header {
 }
 
 main {
-    margin-bottom: 5vw;
+    height: calc(100vh - 94px);
+    overflow: auto;
 }
 
 /* main */
@@ -74,11 +65,8 @@ main {
 .commands {
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    bottom: 0;
     background-color: #4a4a4a;
-    width: 100%;
-    color: white;
+    color: white; 
 }
 
 .arrowup {
